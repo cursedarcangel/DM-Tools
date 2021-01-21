@@ -1,6 +1,7 @@
 from tkinter import *
 
-window = Tk()
-window.title('Character Tracker')
+def characterTracker():
+    window = Tk()
+    window.title('Character Tracker')
 
-window.mainloop()
+    window.mainloop()

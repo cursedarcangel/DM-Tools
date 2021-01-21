@@ -1,6 +1,7 @@
 from tkinter import *
 
-window = Tk()
-window.title('Magic Item Tracker')
+def magicItemTracker():
+    window = Tk()
+    window.title('Magic Item Tracker')
 
-window.mainloop()
+    window.mainloop()

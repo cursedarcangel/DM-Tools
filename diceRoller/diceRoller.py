@@ -1,6 +1,7 @@
 from tkinter import *
 
-window = Tk()
-window.title('Dice Roller')
+def diceRoller():
+    window = Tk()
+    window.title('Dice Roller')
 
-window.mainloop()
+    window.mainloop()

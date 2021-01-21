@@ -1,6 +1,7 @@
 from tkinter import *
 
-window = Tk()
-window.title('Monster Stat Blocks')
+def monsterTracker():
+    window = Tk()
+    window.title('Monster Stat Blocks')
 
-window.mainloop()
+    window.mainloop()
