@@ -1,14 +1,21 @@
 from tkinter import *
+from .addThing import *
 
-def add():
-    print('Thing added')
+global initiatives
 
-window = Tk()
-window.title('Initiative Tracker')
-window.geometry('300x300')
+def initiativeTracker():
+    #Declaring the window
+    window = Tk()
+    window.title('Initiative Tracker')
+    window.geometry('300x300')
 
-addThing = Button(window, text='Add a thing to initiative', command=add)
+    #declaring buttons
+    addThing = Button(window, text='Add a thing', command=add)
 
-addThing.place(x=60, y=250)
+    #placing buttons
+    addThing.place(x=60, y=250)
 
-window.mainloop()
+    window.mainloop()
+
+def addToOrder(creature):
+    print(creature)
